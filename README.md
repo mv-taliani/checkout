@@ -202,11 +202,6 @@ from datetime import date
 def assert_eq(a,b): 
     assert a==b, f"esperado {b}, obtido {a}"
 
-# Importe as funções do seu módulo 'funcoes.py'
-# from funcoes import (comeca_b_termina_a, print_valor, min_turnos,
-#                      prob_caminho_otimo, caminhos_sem_loop,
-#                      analisa_tabuleiro, calcular_beneficios_rescisao)
-
 # Q2
 assert_eq(7*1+4, 11)
 assert_eq(7*2+4, 18)
