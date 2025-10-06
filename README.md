@@ -32,11 +32,10 @@ source .venv/bin/activate  # Linux/macOS
 Não há dependências externas.
 
 ## Estrutura
-- `funcoes.py` (sugestão de nome) contendo:
-  - Pergunta 1: `comeca_b_termina_a`
-  - Pergunta 2: `print_valor`
-  - Pergunta 3: `min_turnos`, `prob_caminho_otimo`, `caminhos_sem_loop`, `analisa_tabuleiro`
-  - Pergunta 4: `calcular_beneficios_rescisao` (e helpers internos)
+    - Pergunta 1: `comeca_b_termina_a`
+    - Pergunta 2: `print_valor`
+    - Pergunta 3: `min_turnos`, `prob_caminho_otimo`, `caminhos_sem_loop`, `analisa_tabuleiro`
+    - Pergunta 4: `calcular_beneficios_rescisao` (e helpers internos)
 
 ---
 
@@ -197,8 +196,7 @@ calcular_beneficios_rescisao(
 
 ## Testes Rápidos
 
-```bash
-python - <<'PY'
+```python
 from datetime import date
 
 def assert_eq(a,b): 
@@ -222,5 +220,4 @@ def _min_turnos(N): return math.ceil((N-1)/3)
 assert_eq(_min_turnos(3), 1)
 
 print("OK")
-PY
 ```
